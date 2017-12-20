@@ -7,6 +7,6 @@
   { "name": "El Corazon", "lat": "47.6186", "long": "-122.3294" },
   { "name": "Space Needle", "lat": "47.6205", "long": "-122.3493" },
   { "name": "Museum Of Pop Culture", "lat": "47.6215", "long": "-122.3481" },
-  { "name": "Starbucks Reserve Roastery & Tasting Room", "lat": "47.6140", "long": "-122.3282" }
+  { "name": "Starbucks Reserve Roastery", "lat": "47.6140", "long": "-122.3282" }
  ]
 }
