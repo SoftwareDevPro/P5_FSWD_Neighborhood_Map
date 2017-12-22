@@ -1,0 +1,56 @@
+body {
+  font-family: Verdana, Geneva, sans-serif;
+  margin: 0;
+}
+
+.search {
+  display: flex;
+  width: 100%;
+}
+
+.search-box {
+  flex-grow: 1;
+  font-size: 1em;
+  padding: 5px 20px;
+}
+
+.app {
+  display: flex;
+  height: 100%;
+  width: 100%;
+}
+
+.list {
+  background-color: #055;
+  flex-grow: 1;
+  order: 1;
+}
+
+.map {
+  background-color: #fff;
+  flex-grow: 4;
+  height: 768px;
+  order: 2;
+  text-align: center;
+}
+
+.results {
+  margin: 0;
+  padding: 0;
+}
+
+.place {
+  background-color: #088;
+  list-style: none;
+  margin: 10px;
+  padding: 10px;
+}
+
+@media only screen and (max-device-width: 959px), only screen and (max-width: 959px) {
+  .app {
+    flex-direction: column;
+  }
+  .search-box, .list {
+    font-size: 1.5em;
+  }
+}
