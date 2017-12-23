@@ -1,12 +1,12 @@
 {
 "locations":[
-  { "name": "Hard Rock Cafe", "lat": "47.6092", "long": "-122.3395" },
-  { "name": "Pike Place Market", "lat": "47.6101", "long": "-122.3421" },
-  { "name": "Experience Music Project", "lat": "47.6215", "long": "-122.3481" },
-  { "name": "Showbox at the Market", "lat": "47.6086", "long": "-122.3393" },
-  { "name": "El Corazon", "lat": "47.6186", "long": "-122.3294" },
-  { "name": "Space Needle", "lat": "47.6205", "long": "-122.3493" },
-  { "name": "Museum Of Pop Culture", "lat": "47.6215", "long": "-122.3481" },
-  { "name": "Starbucks Reserve Roastery", "lat": "47.6140", "long": "-122.3282" }
+  { "name": "Hard Rock Cafe", "lat": "47.6092", "lng": "-122.3395" },
+  { "name": "Pike Place Market", "lat": "47.6101", "lng": "-122.3421" },
+  { "name": "Experience Music Project", "lat": "47.6215", "lng": "-122.3481" },
+  { "name": "Showbox at the Market", "lat": "47.6086", "lng": "-122.3393" },
+  { "name": "El Corazon", "lat": "47.6186", "lng": "-122.3294" },
+  { "name": "Space Needle", "lat": "47.6205", "lng": "-122.3493" },
+  { "name": "Museum Of Pop Culture", "lat": "47.6215", "lng": "-122.3481" },
+  { "name": "Starbucks Reserve Roastery", "lat": "47.6140", "lng": "-122.3282" }
  ]
 }
