@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<!-- page title -->
+	<title>Seattle Neighborhood Map</title>
+
+	<!-- our CSS -->|
+	<link rel="stylesheet" href="css/styles.css">
+
+	<!-- meta tags -->
+	<meta charset="UTF-8">
+	<meta name="description" content="Contains a map of the places in the Seattle area I would like to visit">
+	<meta name="keywords" content="seattle, neighborhood, map">
+	<meta name="author" content="Chris Adamson">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- Bootstrap core CSS     -->
+	<link href="css/bootstrap.min.css" rel="stylesheet"/>
+
+	<!-- Animation library for notifications   -->
+	<link href="css/animate.min.css" rel="stylesheet"/>
+
+	<!--  Paper Dashboard core CSS    -->
+	<link href="css/paper-dashboard.css" rel="stylesheet"/>
+
+	<!--  Fonts and icons     -->
+	<link href="http://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
+	<link href='https://fonts.googleapis.com/css?family=Muli:400,300' rel='stylesheet' type='text/css'>
+	<link href="css/themify-icons.css" rel="stylesheet">
+
+</head>
+
+<body>
+	<div class="wrapper">
+		<div class="sidebar" data-background-color="white">
+			<div class="sidebar-wrapper">
+				<div class="logo">
+					<h5><strong>Seattle Neighborhood Map</strong></h5>
+				</div>
+				<div class="search" id="search">
+					<input class="search-box"
+					       id="search-box"
+								 data-bind="textInput: searchValue, valueUpdate: 'keypress'" />
+				</div>
+
+				<div class="content">
+					<div class="nav">
+						<ul id="results" data-bind="foreach: filter">
+							<li class="btn btn-secondary"
+							    data-bind="text: name, click: drop">
+							</li>
+						</ul><!-- ul -->
+					</div><!-- nav -->
+				</div><!-- content -->
+			</div><!-- sidebar-wrapper -->
+		</div><!-- sidebar -->
+
+		<div class="main-panel">
+			<div class="content">
+				<div class="container-fluid">
+					<div class="card card-map">
+						<div class="map" id="map"></div>
+					</div>
+				</div><!-- container-fluid -->
+			</div> ><!-- content -->
+		</div><!-- main-panel -->
+	</div><!-- wrapper -->
+
+	<!-- reference Javascript libraries -->
+	<script src='js/knockout-3.4.2.js'></script>
+	<script src='js/jquery-3.2.1.min.js'></script>
+
+	<!--   Core JS Files   -->
+	<script src="js/bootstrap.min.js" type="text/javascript"></script>
+
+	<!--  Checkbox, Radio & Switch Plugins -->
+	<script src="js/bootstrap-checkbox-radio.js"></script>
+
+	<!--  Charts Plugin -->
+	<script src="js/chartist.min.js"></script>
+
+	<!--  Notifications Plugin    -->
+	<script src="js/bootstrap-notify.js"></script>
+
+	<!-- Paper Dashboard Core javascript and methods for Demo purpose -->
+	<script src="js/paper-dashboard.js"></script>
+
+	<!-- reference our application code -->
+	<script src='js/application.js'></script>
+
+	<!-- bring in the Google Javascript Maps API -->
+	<script async defer
+          src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCNKO1GHX6ofXxHlkyAocYsk3vYiLZrtLM&callback=initMap"
+					onerror="errorHandling()"></script>
+
+</body>
+</html>
