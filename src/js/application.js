@@ -243,7 +243,7 @@ function initMap() {
 function errorHandling() {
 
   // Simply alert to the failure.
-  alert("Google Maps has failed to load. Please check your try again.");
+  alert("Google Maps has failed to load. Please try again.");
 }
 
 //
